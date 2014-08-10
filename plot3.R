@@ -10,5 +10,5 @@ plot( x = date_time_vec, y = energy_sub_mtr_1,
 lines( x = date_time_vec, energy_sub_mtr_2, col="red")
 lines( x = date_time_vec, energy_sub_mtr_3, col="blue")
 legend( 'topright', c('Sub_metering_1', 'Sub_metering_2', 'Sub_metering_3'), col=c("black", "red", "blue"), lty=1)
-dev.copy(png, file="plot3.png", width=900, height=900)
+dev.copy(png, file="plot3.png", width=480, height=480)
 dev.off()
